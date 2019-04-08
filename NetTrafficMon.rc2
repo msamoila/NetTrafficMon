@@ -1,0 +1,62 @@
+//
+// NetTrafficMon.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+
+#include "NetTrafficMonVer.h"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION NET_TRAFFIC_MON_VER
+ PRODUCTVERSION NET_TRAFFIC_MON_VER
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", NET_TRAFFIC_MON_COMPANY_STR
+            VALUE "FileDescription", "Net Traffic Monitor\0"
+            VALUE "FileVersion", NET_TRAFFIC_MON_VER_STR
+            VALUE "InternalName", "NetTrafficMon\0"
+            VALUE "LegalCopyright", NET_TRAFFIC_MON_COPYRIGHT_STR
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OLESelfRegister", "\0"
+            VALUE "OriginalFilename", "NetTrafficMon.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Net Traffic Monitor\0"
+            VALUE "ProductVersion", NET_TRAFFIC_MON_VER_STR
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
